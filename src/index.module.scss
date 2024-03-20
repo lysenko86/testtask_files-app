@@ -1,0 +1,27 @@
+:root {
+  --whiteColor: #FFF;
+  --primaryColor: #1E5DFF;
+  --primaryColorHover: #3359BB;
+  --bgColor: #D9D9D94D;
+  --bgDarkColor: #6C6C890F;
+  --borderColor: #F0F0F0;
+  --borderDarkColor: #6C6C8929;
+  --textColor: #27262B;
+  --textLightColor: #B1B1BD;
+}
+
+@font-face {
+  font-family: 'CircularStdBook';
+  src: url(../public/fonts/CircularStd-Book.woff2) format('woff2'),
+    url(../public/fonts/CircularStd-Book.woff) format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: "CircularStdBook", sans-serif;
+  color: var(--textColor);
+}
+
+input, button {
+  font-family: "CircularStdBook", sans-serif;
+}
