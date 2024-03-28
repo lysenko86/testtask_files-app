@@ -1,0 +1,17 @@
+.container {
+  background-color: var(--bgColor);
+  margin: 30px 30px;
+  padding: 20px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--borderColor);
+  margin: 40px 0;
+}
+
+.nodes {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}

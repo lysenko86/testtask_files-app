@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  max-width: 200px;
+
+  &.empty {
+    cursor: not-allowed;
+  }
+
+  &.forbidden {
+    color: var(--warningColor);
+  }
+
+  &:hover {
+    border: 1px solid var(--activeColor);
+
+    &.empty {
+      border: 1px solid transparent;
+    }
+  }
+}
+
+.icon {
+  width: 26px;
+}
+
+.title {
+  padding-top: 3px;
+}

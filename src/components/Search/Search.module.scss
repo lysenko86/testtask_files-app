@@ -1,0 +1,18 @@
+.input {
+  outline: none;
+  border: 1px solid var(--borderColor);
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 250px;
+
+  &:focus {
+    border: 1px solid var(--activeColor);
+  }
+}
+
+.searchResults {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

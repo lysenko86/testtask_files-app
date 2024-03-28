@@ -1,27 +1,22 @@
 :root {
-  --whiteColor: #FFF;
-  --primaryColor: #1E5DFF;
-  --primaryColorHover: #3359BB;
-  --bgColor: #D9D9D94D;
-  --bgDarkColor: #6C6C890F;
-  --borderColor: #F0F0F0;
-  --borderDarkColor: #6C6C8929;
-  --textColor: #27262B;
-  --textLightColor: #B1B1BD;
-}
-
-@font-face {
-  font-family: 'CircularStdBook';
-  src: url(../public/fonts/CircularStd-Book.woff2) format('woff2'),
-    url(../public/fonts/CircularStd-Book.woff) format('woff');
+  --bgColor: #EEE;
+  --borderColor: #CCC;
+  --textColor: #444;
+  --warningColor: #F00;
+  --activeColor: #00F;
 }
 
 body {
   margin: 0;
-  font-family: "CircularStdBook", sans-serif;
+  font-family: sans-serif;
   color: var(--textColor);
+  font-size: 16px;
+  line-height: 18px;
 }
 
-input, button {
-  font-family: "CircularStdBook", sans-serif;
+input {
+  font-family: sans-serif;
+  color: var(--textColor);
+  font-size: 16px;
+  line-height: 18px;
 }
